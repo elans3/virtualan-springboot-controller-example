@@ -1,13 +1,33 @@
 Spring-boot RestController With Virtualan
 ==========================================
 
-- Build:
+*Prerequisites:* 
+- JDK(Mandatory) -   
+            http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+     JDK Installation:(Refer following Video and Article)
+            https://www.youtube.com/watch?v=r0jN33ZOmWM
+            https://www3.ntu.edu.sg/home/ehchua/programming/howto/JDK_Howto.html (till step 4)
+     JAVA_HOME set up(Mandatory) :
+            http://roufid.com/no-compiler-is-provided-in-this-environment/
+- Apache Maven(Mandatory)  - https://maven.apache.org
+     Apache Maven: (Refer following Video and Article)
+            https://www.youtube.com/watch?v=3ODSQ0EpoQI
+            https://www.mkyong.com/maven/how-to-install-maven-in-windows/-
+- GIT (optional)
+     GIT Setup(Optional): (Refer following Video and Article)
+            https://www.youtube.com/watch?v=albr1o7Z1nw
+            https://www.codecademy.com/articles/git-setup
+ 
+- Download the project and extract the folder:
 
+- Navigate to root directory of the folder where pom.xml was present:
+
+- Build:
          mvn clean install
                   
 - Run using standalone JAR:
 
-	java -jar target/virtualan-spring-controller-example-1.0.0.jar         
+	java -jar target/virtualan-springboot-controller-example-1.0.0.ja         
 
 - To set up mock data:
       
@@ -19,8 +39,7 @@ Spring-boot RestController With Virtualan
 	  	https://github.com/elan-venture/virtualan/tree/master/samples/virtualan-openapi-spring-mapping/src/test/java/io/virtualan/test
 
 - Invoke User REST service:  
-     
-     curl http://localhost/users
+     using your rest client or curl http://localhost/users
 
 - Invoke Virtualan UI:  			
   
