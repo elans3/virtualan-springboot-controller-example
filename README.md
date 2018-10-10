@@ -28,8 +28,8 @@ Spring-boot RestController With Virtualan
 	 - If you have any proxy issue use this command:  mvn -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2 clean install 
                   
 - Run using standalone JAR:
-
-	java -jar target/virtualan-springboot-controller-example-1.0.0.ja         
+	
+	- java -jar target/virtualan-springboot-controller-example-1.0.0.jar         
 
 - To set up mock data:
       
@@ -41,9 +41,8 @@ Spring-boot RestController With Virtualan
 	  	https://github.com/elan-venture/virtualan/tree/master/samples/virtualan-openapi-spring-mapping/src/test/java/io/virtualan/test
 
 - Invoke User REST service:  
-     using your rest client or curl http://localhost/users
+     using your rest client or curl http://localhost:8080/users
 
 - Invoke Virtualan UI:  			
-  
-  	Navigate to http://localhost/virtualan-ui.html 
-	More details about the user interface refer: https://github.com/elan-venture/virtualan/wiki 
+	- Navigate to http://localhost:8080/virtualan-ui.html 
+	- More details about the user interface refer: https://github.com/elan-venture/virtualan/wiki 
