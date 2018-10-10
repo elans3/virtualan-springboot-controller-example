@@ -17,7 +17,7 @@ Spring-boot RestController With Virtualan
      	- https://www.youtube.com/watch?v=albr1o7Z1nw
 		- https://www.codecademy.com/articles/git-setup
   
-*Download the project and extract the folder*:
+*Download the project and extract the project file*:
 
 - Navigate to root directory of the folder where pom.xml was present:
 
